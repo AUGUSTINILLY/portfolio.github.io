@@ -1,12 +1,377 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>MON PORTFOLIO</title>
+
+    <title>August Illy | Portfolio Informaticien</title>
+
+    <meta name="description" content="Portfolio professionnel d'August Illy, informaticien spécialisé en systèmes d'information, réseaux et développement web.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
+
 <body>
-    <h1>Mon Portfolio</h1>
+
+<!-- NAVIGATION -->
+<header>
+    <nav class="navbar">
+        <a href="#accueil" class="logo">AUGUST<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#experience">Expériences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ACCUEIL -->
+<section class="hero" id="accueil">
+
+    <div class="hero-content">
+
+        <span class="welcome">
+            BIENVENUE SUR MON PORTFOLIO
+        </span>
+
+        <h1>
+            Bonjour, je suis <br>
+            <span>August Illy</span>
+        </h1>
+
+        <h2>Informaticien | Développeur Web</h2>
+
+        <p>
+            Passionné par les technologies de l'information,
+            je conçois des solutions numériques, développe
+            des applications web et participe à l'administration
+            des systèmes et infrastructures informatiques.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projets" class="btn primary">
+                Découvrir mes projets
+            </a>
+
+            <a href="assets/documents/cv.pdf"
+               class="btn secondary" download>
+                <i class="bi bi-download"></i> Télécharger mon CV
+            </a>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com/" target="_blank">
+                <i class="bi bi-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
+
+            <a href="mailto:tonadresse@email.com">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="assets/images/profil.jpg"
+             alt="Photo professionnelle d'August Illy">
+    </div>
+
+</section>
+
+<!-- A PROPOS -->
+<section class="section" id="apropos">
+
+    <div class="section-title">
+        <span>QUI SUIS-JE ?</span>
+        <h2>À propos de moi</h2>
+    </div>
+
+    <div class="about-content">
+
+        <div>
+            <h3>Un informaticien passionné par l'innovation</h3>
+
+            <p>
+                Je suis titulaire d'une licence en informatique,
+                option Systèmes d'information et réseaux.
+
+                Je m'intéresse particulièrement au développement
+                d'applications web, à l'administration des systèmes,
+                à la gestion des réseaux et à la sécurité informatique.
+
+                Mon ambition est de mettre mes compétences au service
+                des organisations afin de contribuer à leur
+                transformation numérique.
+            </p>
+        </div>
+
+        <div class="about-cards">
+
+            <div class="about-card">
+                <i class="bi bi-mortarboard"></i>
+                <h3>Formation</h3>
+                <p>Licence en informatique</p>
+            </div>
+
+            <div class="about-card">
+                <i class="bi bi-code-slash"></i>
+                <h3>Développement</h3>
+                <p>Applications web</p>
+            </div>
+
+            <div class="about-card">
+                <i class="bi bi-hdd-network"></i>
+                <h3>Réseaux</h3>
+                <p>Administration réseau</p>
+            </div>
+
+            <div class="about-card">
+                <i class="bi bi-server"></i>
+                <h3>Systèmes</h3>
+                <p>Administration systèmes</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- COMPETENCES -->
+<section class="section dark-section" id="competences">
+
+    <div class="section-title">
+        <span>MON SAVOIR-FAIRE</span>
+        <h2>Mes compétences</h2>
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <i class="bi bi-code-square"></i>
+            <h3>Développement Web</h3>
+            <p>HTML, CSS, JavaScript, PHP, Laravel, Bootstrap.</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="bi bi-hdd-network"></i>
+            <h3>Réseaux informatiques</h3>
+            <p>TCP/IP, VLAN, DHCP, DNS, routage et commutation.</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="bi bi-server"></i>
+            <h3>Administration systèmes</h3>
+            <p>Windows Server, Linux, Active Directory, virtualisation.</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="bi bi-pc-display"></i>
+            <h3>Maintenance informatique</h3>
+            <p>Diagnostic, dépannage et maintenance des équipements.</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="bi bi-clipboard-data"></i>
+            <h3>Gestion de parc informatique</h3>
+            <p>GLPI, inventaire, assistance et gestion des incidents.</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="bi bi-database"></i>
+            <h3>Bases de données</h3>
+            <p>MySQL, SQL et conception de bases de données.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PROJETS -->
+<section class="section" id="projets">
+
+    <div class="section-title">
+        <span>MES RÉALISATIONS</span>
+        <h2>Mes projets</h2>
+    </div>
+
+    <div class="projects-grid">
+
+        <article class="project-card">
+            <div class="project-icon">
+                <i class="bi bi-box-seam"></i>
+            </div>
+
+            <div class="project-info">
+                <h3>Gestion de stock</h3>
+
+                <p>
+                    Application de gestion des produits,
+                    ventes, approvisionnements et inventaires.
+                </p>
+
+                <div class="tags">
+                    <span>Laravel</span>
+                    <span>MySQL</span>
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-icon">
+                <i class="bi bi-headset"></i>
+            </div>
+
+            <div class="project-info">
+                <h3>Gestion des interventions</h3>
+
+                <p>
+                    Gestion du parc informatique,
+                    suivi des incidents et assistance utilisateurs.
+                </p>
+
+                <div class="tags">
+                    <span>GLPI</span>
+                    <span>Windows Server</span>
+                    <span>Réseaux</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-icon">
+                <i class="bi bi-church"></i>
+            </div>
+
+            <div class="project-info">
+                <h3>Gestion des intentions de messe</h3>
+
+                <p>
+                    Plateforme de gestion des intentions
+                    de messe et des demandes des fidèles.
+                </p>
+
+                <div class="tags">
+                    <span>Laravel</span>
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                </div>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+<!-- EXPERIENCES -->
+<section class="section dark-section" id="experience">
+
+    <div class="section-title">
+        <span>MON PARCOURS</span>
+        <h2>Formation et expériences</h2>
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <span>Formation académique</span>
+            <h3>Licence en informatique</h3>
+            <p>
+                Option Systèmes d'information et réseaux.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <span>Expérience professionnelle</span>
+            <h3>Stage en Direction des Systèmes d'Information</h3>
+            <p>
+                Assistance aux utilisateurs, maintenance informatique,
+                gestion du parc et participation au déploiement
+                de solutions informatiques.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <span>Projets informatiques</span>
+            <h3>Développement et innovation</h3>
+            <p>
+                Conception d'applications web et expérimentation
+                de solutions technologiques.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+
+    <div class="section-title">
+        <span>RESTONS EN CONTACT</span>
+        <h2>Me contacter</h2>
+    </div>
+
+    <div class="contact-grid">
+
+        <div class="contact-card">
+            <i class="bi bi-envelope"></i>
+            <h3>Email</h3>
+            <p>tonadresse@email.com</p>
+        </div>
+
+        <div class="contact-card">
+            <i class="bi bi-telephone"></i>
+            <h3>Téléphone</h3>
+            <p>+226 XX XX XX XX</p>
+        </div>
+
+        <div class="contact-card">
+            <i class="bi bi-geo-alt"></i>
+            <h3>Localisation</h3>
+            <p>Ouagadougou, Burkina Faso</p>
+        </div>
+
+    </div>
+
+    <div class="contact-button">
+        <a href="mailto:tonadresse@email.com" class="btn primary">
+            <i class="bi bi-send"></i> Envoyer un message
+        </a>
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>
+        © <span id="year"></span> August Illy.
+        Tous droits réservés.
+    </p>
+
+    <p>Conçu avec passion pour les technologies.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
 </body>
 </html>
