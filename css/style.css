@@ -25,6 +25,15 @@ body {
 a {
     text-decoration: none;
 }
+.row{
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: center;
+    gap: 55px;
+
+    padding: 55px 0;
+    border-bottom: 1px solid #26364a;
+}
 
 /* NAVIGATION */
 
